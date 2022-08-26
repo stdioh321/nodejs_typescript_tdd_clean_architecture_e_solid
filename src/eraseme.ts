@@ -1,4 +1,4 @@
-function abc ():void {
+function abc (): void {
   console.log('abc')
 }
 
