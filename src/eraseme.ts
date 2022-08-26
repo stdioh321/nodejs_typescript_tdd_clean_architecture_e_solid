@@ -1,5 +1,5 @@
 function abc (): void {
-  console.log("abc")
+  console.log('abc')
 }
 
 abc()
