@@ -8,6 +8,11 @@
     "test:staged": "jest",
     "postinstall": "husky install"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "ls -l"
+    }
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
