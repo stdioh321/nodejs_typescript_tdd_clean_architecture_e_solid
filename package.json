@@ -8,9 +8,6 @@
     "test:staged": "jest",
     "postinstall": "husky install"
   },
-  "lint-staged": {
-    "*.ts" : ["eslint 'src/**'", "ls -l"]
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
