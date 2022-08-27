@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "lint": "eslint 'src/**'",
+    "lint:fix": "npm run lint -- --fix",
     "test": "jest --passWithNoTests --watch",
     "test:staged": "jest --passWithNoTests",
     "postinstall": "husky install"
